@@ -26,7 +26,11 @@ export default function Footer() {
         </Col>
         <Col title="Support">{support.map(([l, h]) => <li key={l}><Link href={h} className="hover:text-brand">{l}</Link></li>)}</Col>
         <Col title="Contact Us">
-          <li className="flex gap-2"><MapPin size={16} className="mt-0.5 shrink-0 text-brand" />Cargora Logistics Pvt. Ltd., 120 Business Park, Andheri East, Mumbai, Maharashtra 400069, India</li>
+          <li className="flex gap-2"><MapPin size={16} className="mt-0.5 shrink-0 text-brand" />BHIVE Workspace - No.112, AKR Tech Park, "A" and "B" Block, 7th Mile Hosur Rd, 
+Hosapalaya, Muneshwara Nagar, Bengaluru, Karnataka 560068 </li>
+  <li className="flex gap-2"><MapPin size={16} className="mt-0.5 shrink-0 text-brand" />Cargora Logistic LLP
+Second Floor, Office No.3, Saini Arcade, Plot No. 25, Sector 8
+Gandhidham, Kachchh, Gujarat, 370201 </li>
           <li className="flex gap-2"><Phone size={16} className="shrink-0 text-brand" />+91 22 4567 8900</li>
           <li className="flex gap-2"><Mail size={16} className="shrink-0 text-brand" />info@cargoralogistics.com</li>
         </Col>
